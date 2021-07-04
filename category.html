@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DOCUMENT</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<style> 
+
+
+
+#example1 {
+background-image: url("Navigation.2.JPG");
+background-position: right bottom;
+background-repeat: repeat;
+background-size:;
+padding: 1000px;
+}
+.bg-div{
+    background-image: url("Navigation.2.JPG");
+    overflow: hidden; 
+}
+.logo-img{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+}
+
+</style>
+</head>
+<body>
+    <section  class="relative w-full px-2 text-gray-700 bg-white body-font">
+        <div class="bg-div" >
+            <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">  <img class="logo-img" src="back.gif" alt=" "  width=200px height=200px>
+
+        <nav class="top-0 left-0 z-0 flex items-center justify-end w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
+            <a href="index.html" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span style="color:white;font-family:Impact;font-size:20px">Home</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="contact1.html" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-Black-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"class="block" >Categories</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="team.html" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span style="color:white;font-family:Impact;font-size:20px">Our Team</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="contact.html" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block" style="color:white;font-family:Impact;font-size:20px">Contact us</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+        </nav>
+
+       
+    </div>
+</section>
+<!-- Section 1 -->
+<section class="relative w-full bg-white">
+    <div class="absolute w-full h-32 bg-gradient-to-b from-gray-100 to-white"></div>
+    <div class="relative w-full px-5 py-10 mx-auto sm:py-12 md:py-16 md:px-10 max-w-7xl">
+
+        <h1 class="mb-1 text-4xl font-extrabold leading-none text-gray-900 lg:text-5xl xl:text-6xl sm:mb-3"><a href="">TAKE A LOOK HERE.</a></h1>
+        <p class="text-lg font-medium text-purple-600 sm:text-2xl">Best Designs to help you with your business.</p>
+        <div class="flex grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16">
+            
+        <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
+            <a href="contact1.html" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI1MTI5ODQx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600')">
+            </a>
+            <div class="relative z-20 w-full h-auto py-8 text-white bg-yellow-400 border-t-0 border-yellow-200 px-7">
+                <a href="contact1.html" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-purple-500 bg-white">Pharmaceuticals</a>
+                <h2 class="mb-5 text-4xl font-bold"><a href="contact1.html">Medicines etc.</a></h2>
+                <p class="mb-2 text-lg font-normal text-purple-100 opacity-100">Do business with these websites that makes doctor's appointments and shopping medicines easy for your customers.</p>
+
+            </div>
+    </div>
+        <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
+                <a href="contact1.html" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('self.jpg')">
+                </a>
+                <div class="relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7">
+                    <a href="contact1.html" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-yellow-400  bg-white">Self Help and care</a>
+                    <h2 class="mb-5 text-4xl font-bold"><a href="contact1.html">Yoga, blogs,  etc</a></h2>
+                    <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Websites that helps you to share a healthier lifestyle for your customers and help them explore Asanas or even encourage them to love themselves.</p>
+
+                </div>
+        </div>
+
+            <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
+                <a href="contact1.html" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI1MTI5MTAx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600.')"></a>
+                <div class="relative z-20 flex flex-col items-start justify-center w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-purple-200 sm:h-full xl:h-auto px-7">
+                    <a href="contact1.html" class="inline-block text-xs font-semibold absolute sm:mb-5 xl:mb-0 sm:relative xl:absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-blue-700 bg-white">Entertainment</a>
+                    <h2 class="mb-5 text-4xl font-bold"><a href="contact1.html">Games, Videos etc</a></h2>
+                    <p class="mb-2 text-lg font-normal opacity-100 text-yellow-50">Websites that let the gamers know of upcoming events in the gaming community, that helps you to share your content at an online platform.</p>
+
+                </div>
+            </div>
+
+            <div class="grid grid-cols-12 col-span-12 gap-7">
+                <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+                    <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                        <img class="object-cover w-full shadow-sm max-h-56" src="https://images.unsplash.com/photo-1580913428735-bd3c269d6a82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                    </a>
+                    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                        <div class="bg-indigo-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                            <span>Food</span>
+                        </div>
+                        <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Groceries, snacks etc.</a></h2>
+                        <p class="mt-2 text-sm text-purple-600">Got a grocery store? Then you’ll love to take orders online and showing off your products and services.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+                    <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                        <img class="object-cover w-full shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/snacks.jpg">
+                    </a>
+                    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                        <div class="bg-red-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                            <span>Bakery</span>
+                        </div>
+                        <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Cakes and Baked products</a></h2>
+                        <p class="mt-2 text-sm text-purple-600">Your bakery business deserves an experience like this, complete with tele booking and menus baked right in.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+                    <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                        <img class="object-cover w-full shadow-sm max-h-56" src="https://images.unsplash.com/photo-1541411780127-15d88bd3476d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=734&q=80">
+                    </a>
+                    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                        <div class="bg-purple-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                            <span>Art</span>
+                        </div>
+                        <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Tribal or Mordern art etc</a></h2>
+                        <p class="mt-2 text-sm text-purple-600">Websites to help your tribal or any form of art get popular between the masses.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+                    <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                        <img class="object-cover w-full shadow-sm max-h-56" src="cloth.jpg">
+                    </a>
+                    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                        <div class="bg-blue-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                            <span>Apparel</span>
+                        </div>
+                        <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Western or Traditional Dresses</a></h2>
+                        <p class="mt-2 text-sm text-purple-600">Display your products with creativity. Let your business reach the heights that you always wished for.</p>
+                    </div>
+                </div>
+            
+           
+            <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+                <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                    <img class="object-cover w-full shadow-sm max-h-56" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80">
+                </a>
+                <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                    <div class="bg-green-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                        <span>Fashion</span>
+                    </div>
+                    <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Makeup products or tutorials.</a></h2>
+                    <p class="mt-2 text-sm text-purple-600">Invite people into your fashion world by showing them your makeup products or tutorials about makeup with videos.</p>
+                </div>
+            </div>
+       
+        <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+            <a href="contact1.html" class="block transition duration-200 ease-out transform hover:scale-110">
+                <img class="object-cover w-full shadow-sm max-h-56" src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
+            </a>
+            <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+                <div class="bg-purple-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                    <span>Home Services</span>
+                </div>
+                <h2 class="text-base font-bold sm:text-lg md:text-xl"><a href="contact1.html">Laundry, Sanitizing, Moving or packing etc</a></h2>
+                <p class="mt-2 text-sm text-purple-600">Websites that encourage you to showcase your unique idea of serving by providing home services.</p>
+            </div>
+        </div>
+
+   
+        </div>
+    </div>
+
+</section>
+<div class="p-2 w-full pt-8 mt-8 border-t border-gray-400 text-center">
+    <a href="mailto:developerslegacy21@gmail.com"  class="text-purple-600">developerslegacy21@gmail.com</a>
+    <p class="text-purple-600 leading-normal my-5">Ranchi
+      <br>Jharkhand,India 834001
+    </p>
+    <span class="inline-flex">
+      <a href="https://mobile.twitter.com/developerslega1" class="ml-4 text-purple-600">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a href="https://instagram.com/developers_legacy?utm_medium=copy_link" class="ml-4 text-purple-600">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a href="https://chat.whatsapp.com/EQCAEWlivmy20I5n3IW0vA" class="ml-4 text-purple-600">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+        </svg>
+      </a>
+    </span>
+    
+  </div>
+</section>
+
+</body>
+</html>
